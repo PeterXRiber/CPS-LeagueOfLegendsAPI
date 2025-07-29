@@ -1,0 +1,46 @@
+.ranked-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start; /* or center */
+}
+
+.ranked-mode-block {
+    display: grid;
+    grid-template-columns: 80px 95px 80px;  /* tweak sizes to your preference */
+    background: #1C1A2E;
+    min-height: 75px;
+    width: 285px;
+    padding: 8px 14px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.ranked-col.label {
+    text-align: left;
+}
+.ranked-col.value {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ranked-col.points {
+    text-align: right;
+}
+
+.ranked-label {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.ranked-value {
+    font-size: 14px;
+    color: white;
+}
+.ranked-points {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
